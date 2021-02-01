@@ -11,8 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:scaleType="centerInside"
-        android:foregroundGravity="center"
-        />
+        android:foregroundGravity="center" />
 
     <ImageButton
         android:id="@+id/imageButtonFuture"
