@@ -15,8 +15,8 @@
 
     <ImageButton
         android:id="@+id/imageButtonFuture"
-        android:layout_width="80dp"
-        android:layout_height="73dp"
+        android:layout_width="200px"
+        android:layout_height="200px"
         android:layout_marginStart="116dp"
         android:layout_marginLeft="116dp"
         android:background="@null"
@@ -31,12 +31,12 @@
 
     <ImageButton
         android:id="@+id/imageButtonPast"
-        android:layout_width="80dp"
-        android:layout_height="73dp"
+        android:layout_width="200px"
+        android:layout_height="200px"
         android:background="@null"
+        android:onClick="onClickPast"
         android:scaleType="centerCrop"
         android:src="@drawable/time_past"
-        android:onClick="onClickPast"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/imageButtonFuture"
         app:layout_constraintHorizontal_bias="0.417"
